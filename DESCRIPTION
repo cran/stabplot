@@ -1,0 +1,25 @@
+Package: stabplot
+Type: Package
+Title: Stability Plots for Lasso Stability Selection
+Version: 0.0.1
+Authors@R: 
+    c(
+      person("Mahdi", "Nouraie", email = "mahdinouraie20@gmail.com",
+             role = c("aut", "cre")),
+      person("Samuel", "Muller", role = "aut")
+    )
+Description: Provides stability selection with Lasso and two diagnostic plots for assessing selection stability. The Regustab plot shows stability across the regularisation parameter grid, while the Convstab plot shows stability as a function of the number of subsamples. Methods are described in Nouraie and Muller (2026) <doi:10.1080/03610926.2026.2715517>.
+License: MIT + file LICENSE
+Imports: glmnet, latex2exp, ggplot2
+Encoding: UTF-8
+URL: https://github.com/MahdiNouraie/stabplot,
+        https://www.tandfonline.com/doi/full/10.1080/03610926.2026.2715517
+BugReports: https://github.com/MahdiNouraie/stabplot/issues
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2026-09-17 05:53:03 UTC; 48099783
+Author: Mahdi Nouraie [aut, cre],
+  Samuel Muller [aut]
+Maintainer: Mahdi Nouraie <mahdinouraie20@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-09-28 07:50:02 UTC
